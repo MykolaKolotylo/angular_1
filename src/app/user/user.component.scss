@@ -1,0 +1,23 @@
+.card {
+  .card-content {
+    height: 150px;
+    font-size: 20px;
+    color: lighten(#000000, 30%);
+  }
+
+  .card-action {
+    text-align: center;
+  }
+
+  .marked {
+    font-weight: bold;
+    color: darken(#ffffff, 50%)!important;
+  }
+}
+
+.hovered {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  transition: .5s all;
+  z-index: 10;
+}
